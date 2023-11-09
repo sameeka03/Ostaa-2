@@ -1,0 +1,25 @@
+
+<!--   Sameeka Maroli
+       Task: Create a simple client side to find and view listings as well as add a new listing -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ostaa Home</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="body">
+      <div id="header"><h1>Ostaa</h1></div>
+      <div id="queryBox">
+        <div><h2 id="welcomeTxt">Welcome, what would you like to do?</h2></div>
+        <div><input id="wordFind" type="text"><input type="submit" value="Search Listings" onclick="getListings()"></div>
+        <div><input id="viewListings" type="submit" value="View your listings" onclick="getGet()"><div>
+        <div><input id="viewOrders" type="submit" value="View your purchases" onclick="getGet()"></div>
+        <div><input id="newItemListings" type="submit" value="Create a new listing" onclick="loadPostPage()"></div>
+      </div>
+      <div id="backButton">
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

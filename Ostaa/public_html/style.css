@@ -1,0 +1,102 @@
+/* Name: Sameeka Maroli
+  Task: Styling the  html of the webpage */
+
+#header{
+	display: block;
+	position: fixed;
+	height: 10%;
+	text-align: center;
+	background-color: palegoldenrod;
+	width:100%;
+}
+
+#indexH{
+	margin-left:35%;
+	width: 10%;
+}
+
+#ostaa{
+	margin-left: 35%;
+	margin-top: 40px;
+	padding: 40px;
+	border: solid 5px rgb(16, 3, 133);
+	width: 30%;
+}
+
+#backButton{
+	top: 10%;
+	width: 50%;
+	right: 0;
+	border: 2px solid black;
+	display: block;
+	position: fixed;
+	height: 90%;
+}
+
+#postH{
+	margin-top: 25px;
+	position:fixed;
+	display: block;
+	top: 15%;
+	border: 2px solid black;
+	margin-left: 30%;
+	width: 35%;
+}
+
+#addListing{
+		padding: 55px;
+}
+
+body{
+	margin: 0;
+	background: rgb(243, 242, 185);
+}
+
+th{
+	font-size: 30px;
+	padding: 10px;
+}
+
+tr{
+	font-size: 20px;
+	padding: 10px;
+}
+
+#queryBox{
+	display: block;
+	position: fixed;
+	height: 90%;
+	top: 10%;
+	width: 50%;
+	left: 0;
+	border: solid 2px black;
+}
+
+#createAccountBox{
+	margin-top: 10px;
+}
+
+#welcomeTxt{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+#wordFind{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+#viewListings{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+#viewOrders{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+#newItemListings{
+	margin-top: 100px;
+	margin-left: 40px;
+}

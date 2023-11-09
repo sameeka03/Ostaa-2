@@ -1,0 +1,26 @@
+<!--   Sameeka Maroli
+       Task: Create a simple client side to add a new listing -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Listing Page</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="body">
+    <div id="header"><h1>Ostaa</h1></div>
+      <div id="postH">
+        <table id="addListing"><th>Add Item</th>
+        <tr ><td><label>Title</label></td><td><input type="text" id="title"></td></tr>
+        <tr ><td><label>Description</label></td><td><input id="desc" type="text"></td></tr>
+        <tr ><td><label>Price</label></td><td><input id="cost" type="text"></td></tr>
+        <tr ><td><label>Status</label></td><td><input id="status" type="text"></td></tr>
+        <tr ><td><label>Username</label></td><td><input id="owner" type="text"></td></tr>
+        <tr ><td><label>Image</label></td><td><input id="image" type="file"></td></tr>
+        <tr><td><input type="submit" id="addItemButton" value="Add Item" onclick="addItem()"></td></tr>
+      </table>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
